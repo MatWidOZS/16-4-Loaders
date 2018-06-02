@@ -4,7 +4,8 @@
   "description": "using webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --env development",
+    "build": "webpack --env production"
   },
   "keywords": [
     "webpack",
