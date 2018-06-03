@@ -4,7 +4,7 @@
   "description": "using webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --env development",
+    "start": "webpack-dev-server --env development",
     "build": "webpack --env production"
   },
   "keywords": [
@@ -26,7 +26,8 @@
     "react-dom": "^16.4.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.9.1",
-    "webpack-cli": "^2.1.4"
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "uuid": "^3.2.1"
