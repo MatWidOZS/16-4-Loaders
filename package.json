@@ -4,7 +4,7 @@
   "description": "using webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --env development",
+    "start": "webpack-dev-server --hot --env development",
     "build": "webpack --env production"
   },
   "keywords": [
@@ -24,6 +24,7 @@
     "optimize-js-plugin": "0.0.4",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-hot-loader": "^4.2.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.9.1",
     "webpack-cli": "^2.1.4",
